@@ -1,10 +1,15 @@
 import React, { useState } from 'react';
+import PeopleList from './PeopleList';
 
 const UseStateExample = () => {
   const [title, setTitle] = useState('Title');
 
   const handleClick = () => {
-    setTitle('oh');
+    if (title === 'Title') {
+      setTitle('oh');
+    } else {
+      setTitle('Title');
+    }
   };
 
   // <> ... </> is a short syntax for declaring a React.Fragment. See
@@ -16,6 +21,7 @@ const UseStateExample = () => {
       <button type="button" className="btn" onClick={handleClick}>
         Button
       </button>
+      <PeopleList />
     </>
   );
 };
