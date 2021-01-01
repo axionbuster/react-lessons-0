@@ -1,10 +1,12 @@
 import React from 'react';
 
+import UseStateExample from './tutorial/1-useState/UseStateExample';
+
 import './App.css';
 
 const App = () => (
   <div className="mainDiv">
-    <h1>Advanced React Tutorial</h1>
+    <UseStateExample />
   </div>
 );
 
