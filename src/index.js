@@ -1,7 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-import App from "./App";
+import App from './App';
 
 class Program extends React.Component {
   constructor(props) {
@@ -18,5 +18,5 @@ ReactDOM.render(
   <React.StrictMode>
     <Program />
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById('root'),
 );
