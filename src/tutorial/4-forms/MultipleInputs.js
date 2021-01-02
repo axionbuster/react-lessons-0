@@ -1,5 +1,3 @@
-/* eslint no-unused-vars: "warn" */
-
 import React, { useState } from 'react';
 
 const MultipleInputs = () => {

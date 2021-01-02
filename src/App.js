@@ -10,7 +10,8 @@ import React from 'react';
 // import ShortCircuit from './tutorial/3-conditionalRendering/ShortCircuit';
 // import ShowHide from './tutorial/3-conditionalRendering/ShowHide';
 // import ControlledInputs from './tutorial/4-forms/ControlledInputs';
-import MultipleInputs from './tutorial/4-forms/MultipleInputs';
+// import MultipleInputs from './tutorial/4-forms/MultipleInputs';
+import UseEffectBasics from './tutorial/5-useRef/UseRefBasics';
 
 import './App.css';
 
@@ -26,7 +27,8 @@ const App = () => (
       {/* <ShortCircuit /> */}
       {/* <ShowHide /> */}
       {/* <ControlledInputs /> */}
-      <MultipleInputs />
+      {/* <MultipleInputs /> */}
+      <UseEffectBasics />
     </>
   </div>
 );
