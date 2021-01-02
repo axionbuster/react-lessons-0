@@ -12,7 +12,8 @@ import React from 'react';
 // import ControlledInputs from './tutorial/4-forms/ControlledInputs';
 // import MultipleInputs from './tutorial/4-forms/MultipleInputs';
 // import UseEffectBasics from './tutorial/5-useRef/UseRefBasics';
-import SimpleTutorial from './tutorial/6-useReducer/SimpleTutorial';
+// import SimpleTutorial from './tutorial/6-useReducer/SimpleTutorial';
+import PropDrilling from './tutorial/7-prop-drilling/PropDrilling';
 
 import './App.css';
 
@@ -30,7 +31,8 @@ const App = () => (
       {/* <ControlledInputs /> */}
       {/* <MultipleInputs /> */}
       {/* <UseEffectBasics /> */}
-      <SimpleTutorial />
+      {/* <SimpleTutorial /> */}
+      <PropDrilling />
     </>
   </div>
 );
