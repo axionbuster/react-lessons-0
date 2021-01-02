@@ -12,7 +12,7 @@ const UseEffectBasics = () => {
     if (value > 0) document.title = `New Messages ${value}`;
   }, [value]);
 
-	// many useEffect hooks can be registered independently.
+  // many useEffect hooks can be registered independently.
   useEffect(() => {
     // This is called only on the initial render.
     console.log('hello, world');
