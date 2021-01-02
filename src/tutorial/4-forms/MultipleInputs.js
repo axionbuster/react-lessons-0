@@ -3,7 +3,8 @@
 import React, { useState } from 'react';
 
 const MultipleInputs = () => {
-  const [person, setPerson] = useState({ firstName: '', email: '', age: '' });
+  const emptyPerson = { firstName: '', email: '', age: '' };
+  const [person, setPerson] = useState({ ...emptyPerson });
   const [people, setPeople] = useState([]);
 
   const handleChange = (e) => {
@@ -22,7 +23,7 @@ const MultipleInputs = () => {
       setPeople((oldPeople) => {
         const newPerson = { ...person, id: new Date().getTime().toString() };
         const newArray = [...oldPeople, newPerson];
-        setPerson({});
+        setPerson({ ...emptyPerson });
         return newArray;
       });
     }
