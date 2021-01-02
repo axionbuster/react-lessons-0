@@ -11,7 +11,8 @@ import React from 'react';
 // import ShowHide from './tutorial/3-conditionalRendering/ShowHide';
 // import ControlledInputs from './tutorial/4-forms/ControlledInputs';
 // import MultipleInputs from './tutorial/4-forms/MultipleInputs';
-import UseEffectBasics from './tutorial/5-useRef/UseRefBasics';
+// import UseEffectBasics from './tutorial/5-useRef/UseRefBasics';
+import SimpleTutorial from './tutorial/6-useReducer/SimpleTutorial';
 
 import './App.css';
 
@@ -28,7 +29,8 @@ const App = () => (
       {/* <ShowHide /> */}
       {/* <ControlledInputs /> */}
       {/* <MultipleInputs /> */}
-      <UseEffectBasics />
+      {/* <UseEffectBasics /> */}
+      <SimpleTutorial />
     </>
   </div>
 );
