@@ -14,7 +14,8 @@ import React from 'react';
 // import UseEffectBasics from './tutorial/5-useRef/UseRefBasics';
 // import SimpleTutorial from './tutorial/6-useReducer/SimpleTutorial';
 // import PropDrilling from './tutorial/7-prop-drilling/PropDrilling';
-import ContextAPIExample from './tutorial/8-useContext/ContextAPIExample';
+// import ContextAPIExample from './tutorial/8-useContext/ContextAPIExample';
+import CustomHookExample from './tutorial/9-customHooks/CustomHookExample';
 
 import './App.css';
 
@@ -34,7 +35,8 @@ const App = () => (
       {/* <UseEffectBasics /> */}
       {/* <SimpleTutorial /> */}
       {/* <PropDrilling /> */}
-      <ContextAPIExample />
+      {/* <ContextAPIExample /> */}
+      <CustomHookExample />
     </>
   </div>
 );
